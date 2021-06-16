@@ -4,6 +4,8 @@ from django.contrib.auth.forms import UserCreationForm
 from django.utils.text import slugify
 from django.shortcuts import redirect, render, get_object_or_404
 from .models import Vendor
+from apps.product.models import Product, ProductImage
+from .forms import ProductForm, ProductImageForm
 
 def become_vendor(request):
     if request.method == 'POST':
