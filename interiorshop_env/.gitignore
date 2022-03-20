@@ -161,9 +161,7 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
-pyvenv.cfg
-bin
-lib/python3.8/site-packages
+
 
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
